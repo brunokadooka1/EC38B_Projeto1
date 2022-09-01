@@ -1,0 +1,187 @@
+@font-face {
+  font-family: 'InspireDisney';
+  src: url('./fonts/InspireTWDC.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1600px;
+}
+
+.centralized {
+  position: relative;
+  justify-content: space-around;
+  text-align: center;
+  display: flex;
+}
+
+nav {
+  display: block;
+}
+
+nav li {
+  list-style: none;
+  display: inline;
+  vertical-align: middle;
+}
+
+nav img {
+  padding: 15px 8px 10px 11px;
+  cursor: pointer;
+}
+
+.text-disney {
+  font-family: 'InspireDisney', 'Helvetica',sans-serif;
+  font-size: 0.9rem;
+  padding: 27px 14px 20px 23px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.text-disney:hover {
+  color: #0077DA;
+}
+
+.form-search {
+  display: block;
+  padding: 10px;
+}
+
+.text-search {
+  width: 266px;
+  height: 18px;
+  padding: 10px;
+  border: 1px solid #757575;
+  border-radius: 5px 0 0 5px;
+  border-right: 0px;
+  font-family: 'InspireDisney', 'Helvetica',sans-serif;
+  font-size: 0.8rem;
+  color: #757575;
+}
+
+.form-search img {
+  padding: 7px;
+  border: 1px solid #757575;
+  border-radius: 0 5px 5px 0;
+  border-left: 0;
+}
+
+
+/* Funções da parte mobile */
+.mobile {
+  display: none;
+}
+
+.logo-mobile img {
+  height: 40px; 
+  width: 95px;
+}
+
+.search-mobile img {
+  height: 30px;
+  width: 30px;
+}
+
+.line-1 {
+  height: 2px;
+  width: 20px;
+  background-color: #000;
+}
+
+.line-2 {
+  height: 2px;
+  width: 20px;
+  background-color: #000;
+  margin-top: 4px;
+}
+
+/*Funções para o corpo da página*/
+/*Parte do anuncio*/
+.content-anuncio {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 20px;
+}
+
+.anuncio {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.img-anuncio {
+  height: 70px;
+  width: 80%;
+  cursor: pointer;
+}
+
+.icon-anuncio{
+  position: absolute;
+  right: 10%;
+  margin: 2px;
+  cursor: pointer;
+}
+
+/* Design responsivo para cada tamanho de pixel */
+@media screen and (max-width: 1330px) {
+  .med-w-1330 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1270px) {
+  .med-w-1270 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  .med-w-1110 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .med-w-950 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .med-w-850 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .mobile {
+    display: flex;
+    margin-top: 10px;
+    width: 770px;
+    justify-content: space-around;
+    align-items: center;
+    vertical-align: middle;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .form-search {
+    display: none;
+  }
+
+  .img-anuncio img {
+    height: 40px;
+  }
+}

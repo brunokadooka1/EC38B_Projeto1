@@ -20,3 +20,6 @@ Durante a implementação do PROJETO 1, o professor pode pedir a remoção e ada
   - Atualização incremental das mudanças de código-fonte no Git.
   
 (Na main do projeto, se encontra a proposta de desenvolvimento web ao longo da disciplina, descrevendo cada modelo ou critério de avaliação em cada projeto)
+
+Pagina a ser copiada: https://disney.com.br/
+

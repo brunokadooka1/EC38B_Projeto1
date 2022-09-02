@@ -8,7 +8,10 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: #fff;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 .wrapper {
@@ -132,6 +135,72 @@ nav img {
   cursor: pointer;
 }
 
+/*Conteudo do carrosel travado*/
+.background-carrosel {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.groot_screen {
+  width: 100%;
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+}
+
+.background-carrosel:hover img {
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
+}
+
+.content-groot {
+  position: absolute;
+  top: 17%;
+  right: 5%;
+}
+
+.text-disney-groot {
+  color: white;
+  font-family: 'InspireDisney', 'Helvetica',sans-serif;
+  font-weight: 500;
+  max-width: 450px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.form-btn {
+  padding: 5px;
+}
+
+.form-btn button {
+  margin: 12px 12px 0 12px;
+  font-family: 'InspireDisney', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  border: 1px solid #FCF3EF;
+  border-radius: 24px;
+  padding: 16px 32px;
+  line-height: 16px;
+  height: 48px;
+  min-width: 240px;
+}
+
+#btn-1 {
+  color: #000;
+  background-color: #FCF3EF;
+}
+
+#btn-2 {
+  color: #FCF3EF;
+  background-color: transparent;
+}
+
+#btn-2:hover {
+  border-color: #1d1e1f;
+  background-color: rgba(255, 255, 255, 0.4);
+  color: white;
+}
+
 /* Design responsivo para cada tamanho de pixel */
 @media screen and (max-width: 1330px) {
   .med-w-1330 {
@@ -181,7 +250,12 @@ nav img {
     display: none;
   }
 
-  .img-anuncio img {
-    height: 40px;
+  .img-anuncio {
+    height: 45px;
+  }
+
+  .icon-anuncio {
+    height: 12px;
+    width: 12px;
   }
 }

@@ -215,6 +215,7 @@ nav img {
 }
 
 .arrow-right {
+  z-index: 1;
   position: relative;
   left: 95%;
   opacity: 0.3;
@@ -222,6 +223,7 @@ nav img {
 }
 
 .arrow-left {
+  z-index: 1;
   position: relative;
   left: 1%;
   opacity: 0.3;
@@ -342,11 +344,10 @@ nav img {
   
   .content-groot {
     position: relative;
-    margin: 0 auto;
+    left: -2%;
   }
   
   .content-groot p {
-    margin: 0 auto;
     padding-left: 25px;
     max-width: 400px;
   }

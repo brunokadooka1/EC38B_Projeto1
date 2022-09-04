@@ -242,11 +242,13 @@ nav img {
   position: absolute;
   display: flex;
   width: 100%;
+  top: 97%;
 }
 
 .content-index-button {
+  position: relative;
   display: flex;
-  margin: 42% auto;
+  margin: 0 auto;
 }
 
 .index-1 {
@@ -346,8 +348,12 @@ nav img {
     position: relative;
     left: -2%;
   }
+
+  .index-button {
+    top: 90%;
+  }
   
-  .content-groot p {
+  .text-disney-groot {
     padding-left: 25px;
     max-width: 400px;
   }
